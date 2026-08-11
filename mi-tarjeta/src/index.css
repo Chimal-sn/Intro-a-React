@@ -50,3 +50,26 @@ body {
     }
   }
 }
+
+.botones {
+  display: flex;
+  gap: 20px;
+
+  button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    background-color: #88510d;
+    color: #d4dac9;
+    font-size: 1rem;
+
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #a66011;
+    }
+
+  }
+}
